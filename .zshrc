@@ -15,7 +15,10 @@ LC_TIME="de_DE g.UTF-8"
 ## History options ##
 HISTSIZE=10000
 SAVEHIST=10000
+HISTCONTROL=ignoreboth
 HISTFILE=~/.history
+#HISTTIMEFORMAT='%F %T '
+alias history='history -i'
 
 ## The completion stuff ##
 bindkey "^[[5~" history-search-backward
