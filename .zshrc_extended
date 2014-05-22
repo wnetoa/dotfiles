@@ -9,6 +9,9 @@ setopt ALL_EXPORT               # export all parameters automatically
 HISTFILE=~/.zhistory
 HISTSIZE=25000
 SAVEHIST=25000
+HISTCONTROL=ignoreboth
+alias history='history -i'
+
 HOSTNAME="`hostname`"
 
 PAGER='less'
