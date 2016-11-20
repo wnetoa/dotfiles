@@ -8,7 +8,6 @@ set t_Co=256
 " Add some colors
 "color wnetoa 
 
-
 hi clear
 if exists("syntax_on")
            syntax reset
