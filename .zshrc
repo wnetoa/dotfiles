@@ -24,8 +24,8 @@ LC_NUMERIC="de_DE.UTF-8"
 LC_TIME="de_DE g.UTF-8"
 
 ## History options ##
-HISTSIZE=10000
-SAVEHIST=10000
+HISTSIZE=20000
+SAVEHIST=20000
 HISTFILE=~/.history
 
 ## The completion stuff ##
@@ -34,6 +34,8 @@ bindkey "^[[6~" history-search-forward
 
 bindkey '\e[A' history-beginning-search-backward
 bindkey '\e[B' history-beginning-search-forward
+#bindkey '^xp' history-beginning-search-backward
+#bindkey '^xn' history-beginning-search-forward
 
 zstyle ':completion:*' completer _expand _complete _ignored _correct _approximate
 zstyle ':completion:*' max-errors 2 not-numeric
