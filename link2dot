@@ -1,4 +1,3 @@
-#!/bin/zsh
 
 ln -s src/dotfiles/.zshrc .zshrc
 ln -s src/dotfiles/.oh-my-zsh .oh-my-zsh
