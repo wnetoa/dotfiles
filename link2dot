@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+ln -s src/dotfiles/.zshrc .zshrc
+ln -s src/dotfiles/.oh-my-zsh .oh-my-zsh
+ln -s src/dotfiles/.vim .vim
+ln -s src/dotfiles/.vimrc .vimrc
