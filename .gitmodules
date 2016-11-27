@@ -10,3 +10,6 @@
 [submodule ".vim/bundle/vim-pathogen"]
 	path = .vim/bundle/vim-pathogen
 	url = https://github.com/tpope/vim-pathogen.git
+[submodule ".oh-my-zsh/custom/themes/powerlevel9k/shunit2"]
+	path = .oh-my-zsh/custom/themes/powerlevel9k/shunit2
+	url = https://github.com/kward/shunit2.git
