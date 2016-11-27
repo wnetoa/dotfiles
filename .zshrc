@@ -7,7 +7,8 @@ autoload colors; colors
 export JAVA_HOME='/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home'
 
 ## Layout der Prompt ## 
-export PS1="%B[%n%b@%B%{$fg[blue]%}%m%b%{$reset_color%}:%~%B]%b "
+#export PS1="%B[%n%b@%B%{$fg[blue]%}%m%b%{$reset_color%}:%~%B]%b "
+export PS1="%B[%n%b@%B%{$fg[yellow]%}%m%b%{$reset_color%}:%~%B]%b "
 export PATH=~/bin/:$PATH
 export PATH="/usr/local/sbin:$PATH"
 
